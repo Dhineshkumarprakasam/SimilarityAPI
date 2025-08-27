@@ -1,0 +1,4 @@
+# nixpacks.toml
+
+[start]
+cmd = "python -m spacy download en_core_web_md && gunicorn app:app"
