@@ -7,7 +7,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 from flask import Flask, request, jsonify
 import spacy
 
-
 app = Flask(__name__)
 nlp = spacy.load("en_core_web_md") 
 
