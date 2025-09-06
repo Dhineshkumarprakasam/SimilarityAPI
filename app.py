@@ -92,7 +92,7 @@ class VectorDatabase:
         }
 
 # ------------------ Flask API ------------------ #
-db = VectorDatabase(DB_PATH, similarity_threshold=0.6)
+db = VectorDatabase(DB_PATH, similarity_threshold=0.5)
 
 @app.route("/similarity", methods=["POST"])
 def similarity():
